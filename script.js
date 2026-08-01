@@ -3,11 +3,11 @@ function stringChop(str, size) {
 	let res=[];
 	let temp="";
 	let len=str.length;
-	let n=1;
+	let n=0;
 
 	for(let i=0;i<len;i++)
 		{
-			if(n<=size)
+			if(n<size)
 			{
 				n++;
 				temp=temp+str[i];
