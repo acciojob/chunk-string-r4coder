@@ -5,7 +5,7 @@ function stringChop(str, size) {
 	let len=str.length;
 	let n=0;
 
-	if(str=="")
+	if(str==null)
 	{
 		return res;
     }
