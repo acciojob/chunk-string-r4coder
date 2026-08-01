@@ -2,10 +2,10 @@ function stringChop(str, size) {
   // your code here
 	let res=[];
 	let temp="";
-	let n=str.length;
+	let len=str.length;
 	let n=1;
 
-	for(let i=0;i<n;i++)
+	for(let i=0;i<len;i++)
 		{
 			if(n<=size)
 			{
