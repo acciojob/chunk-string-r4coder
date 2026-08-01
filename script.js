@@ -5,6 +5,11 @@ function stringChop(str, size) {
 	let len=str.length;
 	let n=0;
 
+	if(str=="")
+	{
+		return res;
+    }
+
 
 	for(let i=0;i<len;i++)
 		{
