@@ -25,7 +25,12 @@ function stringChop(str, size) {
 			
         }
 
-	return temp;
+	  if(temp!="")
+	  {
+		  res.push(temp);
+      }
+
+	return res;
 
 	
 }
