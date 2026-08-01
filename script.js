@@ -18,7 +18,7 @@ function stringChop(str, size) {
 			{
 				res.push(temp);
 				temp="";
-				n=1;
+				n=0;
 				
 				
             }
