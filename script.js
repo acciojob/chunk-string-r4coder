@@ -20,7 +20,7 @@ function stringChop(str, size) {
 				res.push(temp);
 				temp="";
 				n=1;
-                temp.push(str[i]);
+                temp=temp+str[i];
 				
 				
             }
